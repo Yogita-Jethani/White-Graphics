@@ -1,0 +1,62 @@
+*{
+	margin: 10px;
+}
+.formmain{
+	height: auto;
+	width: 500px;
+	background: #aaa;
+	margin: 0 auto;
+	border: solid 2px #aaa;
+}
+#firstname{
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 1px darkgray;
+}
+#email{
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 1px darkgray;
+}
+#lastname{
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 1px darkgray;
+}
+#pswd{
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 1px darkgray;
+}
+#phone{
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 1px darkgray;
+}
+#pincode{
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 1px darkgray;
+}
+#submit{
+	width: 200px;
+	height: 25px;
+	/*padding: 10px;*/
+	/*box-sizing: border-box;*/
+	background: #000;
+	color: #fff;
+	border: solid 1px ;
+	margin-left: 125px;
+}

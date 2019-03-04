@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+                  
+	
+}
+.list{
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 15px;
+}
+.list a{
+	
+	
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	
+}
+.navbar{
+	margin-top: 20px;
+	background-color: 	#91292F;
+	width: 100%;
+	
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+ .navbar>ul>li>a:hover,
+.navbar>ul>li>a:focus{
+	background-color: #fff;
+	color:	#91292F;
+	border: solid 1px #000;
+	border-radius: 2px;
+	
+}
+
+
+.home-section{
+	height: 100%;
+	margin-bottom: 40px;
+}
+
+.home-cover{
+	background-image: url('../images/home%202.jpg');
+	height: 600px;
+}
+
+.home-content-box{
+	width: 100%;/*kam width le rha tah isiliye use kia*/
+	height: 100%;
+	display: table;
+}
+.home-content-box-inner{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.home-section .text-heading{
+	color: #fff;
+	font-size: 55px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.page-division
+{
+    height:5px;
+    margin-bottom: 30px;
+}
+.page-division:before
+{
+    content: '';
+    display: block;
+    background-color: #F9BE00;
+    height: 100%;
+    width:90px;
+    border-left:solid 45px #FF4D4D;
+    border-right: solid 45px #4BBCD7;
+    margin: 0 auto;
+}
+#about{
+	height: 100%;
+}
+.section-heading{
+	color: #91292F;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 30px;
+	
+}
+
+.about-bg-diagonal{
+   text-align: right;
+   
+}
+.about-content{
+/*	width: 50%;*/
+	height: 700px;
+/*	text-align: left;*/
+    padding-left: 25px;
+    position: absolute;
+    text-align: left;
+	/*float: left;*/
+	/*width: 400px;*/
+	margin-bottom: 200px;
+}
+
+
+.about-content .about-para{
+	
+	font-size: 16px;
+	width: 500px;
+	position: relative;
+	bottom: 330px;
+	height: 700px;
+	text-align: justify;
+	margin-left: 20px;
+	/*text-align: left;*/
+}
+
+#products{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.product{
+	display: inline-block;
+	margin-right: 50px;
+	padding-left: 150px;
+
+}
+#contact h3{
+	color: #fff;
+	margin-bottom: 20px;
+	/*display: inline-block;*/
+}
+footer{
+	background-color: #41464b;
+	padding-top: 30px;
+	border-top: 5px solid rgba(0,0,0,0.1);
+}
+.contact-info{
+	background: url("../images/world-map.png") no-repeat;
+	background-size: contain;
+}
+address{
+	color:#fff;
+}
+address strong,
+.phone-fax-email strong{
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.form-control{
+	background-color: transparent;
+	border-radius: 0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	border-color: #fff;
+	margin-bottom: 20px;
+	padding: 8px 15px;
+	display: block;
+	
+
+}
+.copyrights{
+    background: #000;
+    padding: 20px 60px;
+    color: #fff;
+
+}
+
+.copyrights>ul>li{
+	display: inline-block;
+
+	float: right;
+
+}
+
+.bottom-links{
+
+    color: #fff;
+    font-size: 16px;
+    padding: 0 15px;
+    display: inline-block;
+    text-decoration: none;
+
+}

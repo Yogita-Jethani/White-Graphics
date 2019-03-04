@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Validation</title>
+<link rel="stylesheet"  href="vendors/css/validation.css">
+</head>
+<body>
+<form action="" method="get" onsubmit="return checked(this);" class="formmain">
+<fieldset>
+<legend>Personal information:</legend>
+<label>First Name:</label>
+<br>
+<input type="text" name="firstname" id="firstname"><br>
+<label>Last Name:</label>
+<br>
+<input type="text" name="lastname" id="lastname"><br>
+<label>Email</label>
+<br>
+<input type="text" name="email" id="email"><br>
+<label>Password</label>
+<br>
+<input type="text" name="password" id="pswd"><br>
+<label>Telephone</label>
+<br>
+<input type="text" name="phone" id="phone"><br>
+<label>Zipcode</label>
+<br>
+<input type="text" name="pincode" id="pincode"><br>
+<label>Gender:</label><br>
+<input type="radio" name="gender1" value="male" id="male"> Male<br>
+<input type="radio" name="gender2" value="female" id="female"> Female<br>
+<input type="radio" name="gender3" value="other" id="other"> Other<br>
+
+<label>Choose a payment mode:</label><br>
+<input type="checkbox" name="paymode1" value="Cash" id="cash" >Cash<br>
+<input type="checkbox" name="paymode2" value="Online" id="online">Online<br>
+<input type="checkbox" name="paymode3" value="Cheque" id="cheque">Cheque<br>
+<label>Location for IV:</label><br>
+<select name="location" id="location">
+<option value="0" selected>Select a location</option>
+<option value="banglore" id="banglore">Banglore--technical</option>
+<option value="mumbai" id="mumbai">Mumbai--fieldvisit</option>
+<option value="nagpur" id="nagpur">Nagpur--factory-visit</option>
+<option value="aurangabad" id="aurangabad">Aurangabad--cultural-visit</option>
+</select>
+<br>
+<input type="submit" value="Submit" id="submit"><br>
+</fieldset>
+</form>
+<script src="vendors/js/validation.js"></script>
+</body>
+</html>
