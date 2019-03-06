@@ -1,4 +1,4 @@
 # White-Graphics
 
 ###Functionality
-![Screenshot]()
+![Screenshot](https://github.com/Yogita-Jethani/White-Graphics/blob/master/White-graphics-demo1.gif)
